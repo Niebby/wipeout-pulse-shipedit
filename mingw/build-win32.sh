@@ -12,9 +12,9 @@ build_to() {
     HOSTARCH=$3
     LIBDEP=$4
 
-    ZLIB_VERSION="1.2.13"
-    LIBPNG_VERSION="1.6.39"
-    SDL2_VERSION="2.26.1"
+    ZLIB_VERSION="1.3.1"
+    LIBPNG_VERSION="1.6.43"
+    SDL2_VERSION="2.30.7"
 
     test -f zlib-$ZLIB_VERSION.tar.gz || wget https://zlib.net/zlib-$ZLIB_VERSION.tar.gz
     test -f libpng-$LIBPNG_VERSION.tar.xz || wget http://prdownloads.sourceforge.net/libpng/libpng-$LIBPNG_VERSION.tar.xz
